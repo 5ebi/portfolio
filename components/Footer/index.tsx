@@ -9,7 +9,7 @@ export default function Footer({ data }: Props) {
   return (
     <div
       data-test-id="footer"
-      className="w-screen bg-gray-100 px-32 py-16 text-center"
+      className="w-screen bg-gray-100 px-32 py-16 text-left"
     >
       {text}
     </div>

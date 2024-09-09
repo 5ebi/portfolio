@@ -3,42 +3,54 @@ export const attributes = {
     firstButton: {
       icon: 'briefcase-outline',
       link: '/#portfolio',
-      text: 'Portfolio',
+      text: 'NOT My Portfolio',
     },
-    heading: "I'm Paco Cu, and I create",
+    heading: " Hi, I'm Sebi, and I create",
     image: '/img/hero.jpeg',
-    secondButton: { icon: 'whatsapp', link: '/#about', text: 'About me' },
+    secondButton: {
+      icon: 'account-outline',
+      link: '/#about',
+      text: 'About me',
+    },
     social: {
-      facebook: { link: 'https://facebook.com', show: true },
-      instagram: { link: 'https://instagram.com', show: true },
-      linkedin: { link: 'https://linkedin.com', show: true },
+      github: { link: 'https://github.com/5ebi', show: true },
+      instagram: {
+        link: 'https://www.instagram.com/sebastianspsr/',
+        show: true,
+      },
+      linkedin: {
+        link: 'https://www.linkedin.com/in/sebspeiser',
+        show: true,
+      },
     },
     typed: [
       { text: 'fast websites.' },
-      { text: 'beautiful logos.' },
-      { text: 'great experiences.' },
+      { text: 'outstanding experiences.' },
+      { text: 'a killer pizza - sometimes.' },
     ],
   },
   about: {
     heading: 'Who am I?',
-    image: '/img/about.jpeg',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi, sit amet consequat leo. Integer non dolor non elit sodales consequat. Integer tempor sollicitudin massa, vel sollicitudin ante dictum eu.\n',
+    image: '/img/ICH-SMALL.jpeg',
+    imageClass: 'mx-auto my-4 animate-fadeIn', // Added  animation class
+
+    text: 'I’m Sebastian Speiser, a web developer born 1997 in Vienna, Austria, who loves building websites that are smoother than my motorcycle rides. I’m a full stack dev by day, and in my free time, you’ll find me gaming like a pro, jamming on my guitar, perfecting my Neapolitan pizza at 500 degrees, or out fishing. .\n',
   },
   features: [
     {
-      icon: 'monitor-screenshot',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
-      title: 'UI/UX',
+      icon: 'responsive',
+      text: 'Creating web applications that look great on any device, from mobile to desktop.',
+      title: 'Responsive Design',
     },
     {
-      icon: 'draw',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
-      title: 'Logo Design',
+      icon: 'api',
+      text: 'Integrating third-party APIs to enhance functionality and connect applications with external data.',
+      title: 'API Integration',
     },
     {
-      icon: 'xml',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus mi.\n',
-      title: 'Web Development',
+      icon: 'speedometer',
+      text: 'Optimizing web performance for faster load times and a smoother user experience.',
+      title: 'Performance Optimization',
     },
   ],
   portfolio: {
@@ -80,7 +92,7 @@ export const attributes = {
         title: 'UIoUXy',
       },
     ],
-    title: 'My work',
+    title: 'NOT My work',
   },
-  footer: { text: '© John Doe' },
+  footer: { text: '© Sebastian Speiser' },
 };

@@ -14,7 +14,7 @@ export default function Features({ data }: Props) {
       <Fade right>
         {data.map((feature) => (
           <div key={`feature-${feature.title}`}>
-            <i className={`mdi mdi-${feature.icon} text-4xl text-red-600`} />
+            <i className={`mdi mdi-${feature.icon} text-4xl text-grey-600`} />
             <h3 className="text-xl font-bold py-3">{feature.title}</h3>
             <p>{feature.text}</p>
           </div>
