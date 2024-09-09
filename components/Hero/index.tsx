@@ -56,6 +56,7 @@ export default function Hero({ data }: Props) {
             <Link
               href={social.github.link}
               target="_blank"
+              rel="noopener noreferrer"
               className="mx-2 px-1 text-xl hover:bg-gray-800 rounded-lg"
             >
               <i className="mdi mdi-github" />
